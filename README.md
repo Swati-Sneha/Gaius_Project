@@ -15,9 +15,5 @@ Gaius_Project is a prototype framework to handle multiple HTTP requests from use
 $ pip install -r requirements.txt
 $ python run.py
 ```
-## data
-- Folder to contain input media
 
-## output
-- Folder to contain processed result of HTTP request
 
