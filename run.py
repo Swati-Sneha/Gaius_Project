@@ -36,7 +36,7 @@ print(images)
 
 @app.route('/read_photo/<var>', methods=['GET'])
 def read_photo(var):
-	image=DATA_DIRECTORY+random.choice(images)
+	image=random.choice(images)
 	add_task(image, 'image') 
 	return 'Image of random choice read successfully '+str(image.split('/')[-1])
 
